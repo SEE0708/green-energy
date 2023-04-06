@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/*font-family: 'Bree Serif', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
+header {
+    background-image: url(../img/windmill-7445459_1920.jpg);
+    padding: 2rem;
+}
+
+h1, .tagline {
+    color: #ffffff;
+}
+
+h2 {
+    color: #276221;
+    font-family: 'Bree Serif', serif; 
+}
+
+p {
+    color:#3b8132;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: #f5f1d3;
+}
+
+header {
+    font-family: 'Bree Serif', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6da8b;
+  }
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #FF0000;
+  } 
+img {
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 15rem;
+}
+footer {
+    padding: 2rem;
+    background-color:#e6da8b ;
+}
+
+@media only screen and (min-width: 36rem){
+    body{
+        margin: auto;
+        align-items: center;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
